@@ -16,7 +16,6 @@ Ten projekt to symulacja rozprzestrzeniania się zakażenia w populacji poruszaj
   - [Wzorzec Pamiątka](#wzorzec-pamiątka)
 - [Zasady SOLID](#zasady-solid)
 - [Wkład w Projekt](#wkład-w-projekt)
-- [Licencja](#licencja)
 
 ## Funkcjonalności
 
