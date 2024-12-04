@@ -131,7 +131,6 @@ Symulacja obsługuje dwa scenariusze, które można wybrać, modyfikując zmienn
 
 ## Struktura Projektu
 
-    ```bash
     infection-simulation/
     ├── main.py
     ├── config.py
@@ -153,7 +152,6 @@ Symulacja obsługuje dwa scenariusze, które można wybrać, modyfikując zmienn
         ├── IMemento.py
         ├── Memento.py
         └── Caretaker.py
-    ```
 
 - **main.py**: Główny punkt wejścia aplikacji. Ustawia scenariusz i uruchamia symulację.
 - **config.py**: Plik konfiguracyjny zawierający stałe używane w symulacji, takie jak prędkości, prawdopodobieństwa i kolory.
@@ -187,7 +185,6 @@ Wzorzec Stan pozwala na zmianę zachowania obiektu w zależności od jego stanu 
 - **ImmuneState**: Reprezentuje osobnika odpornego od początku.
 
 ### Diagram UML Wzorca Stan:
-    ```plaintext
                 +------------------+
                 |     Person       |
                 +------------------+
@@ -210,7 +207,6 @@ Wzorzec Stan pozwala na zmianę zachowania obiektu w zależności od jego stanu 
     +------------------+    +------------------+
     | + handle()       |    | + handle()       |
     +------------------+    +------------------+
-    ```
 
 ## Wzorzec Pamiątka
 
